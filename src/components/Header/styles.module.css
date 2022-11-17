@@ -15,7 +15,20 @@
 }
 
 .header p {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 1.5rem;
   color: var(--color-dark-green)
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 180px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+  .header p {
+    font-size: 1rem;
+  }
 }

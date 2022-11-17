@@ -4,3 +4,9 @@
   flex-direction:column;
   align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .app {
+    padding: 0 1rem;
+  }
+}

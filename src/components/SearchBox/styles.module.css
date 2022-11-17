@@ -31,3 +31,9 @@
   -moz-box-shadow: 6px 6px 12px -4px var(--color-green), -6px -6px 12px -4px var(--color-green);
   box-shadow: 6px 6px 12px -4px var(--color-green), -6px -6px 12px -4px var(--color-green);
 }
+@media only screen and (max-width: 600px) {
+  .searchBox {
+    width: 100%;
+  }
+}
+

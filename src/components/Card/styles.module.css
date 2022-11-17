@@ -1,0 +1,68 @@
+.cardsContainer {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  margin-top: 1.4rem; 
+  background-color: var(--color-grey);
+  column-gap: 1rem; 
+  -webkit-box-shadow: 6px 6px 12px -4px var(--color-grey), -6px -6px 12px -4px var(--color-grey);
+  -moz-box-shadow: 6px 6px 12px -4px var(--color-grey), -6px -6px 12px -4px var(--color-grey);
+  box-shadow: 6px 6px 12px -4px var(--color-grey), -6px -6px 12px -4px var(--color-grey);
+}
+
+.cardsContainer img {
+  object-fit: contain;
+}
+
+.cardsContainer .desc {
+  display: flex;
+  flex-direction: column; 
+  justify-content:  space-evenly;
+  gap: 0.4rem;
+  height: 100%;
+}
+
+.cardsContainer .desc h3 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+
+.cardsContainer .desc .label {
+  font-weight: bold;
+}
+
+.statusLabel {
+  background-color: var(--color-white);
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.5rem;
+  color: var(--color-black);
+}
+
+.statusLabel.alive {
+  background-color: green;
+  color: var(--color-white);
+}
+
+.statusLabel.dead {
+  background-color: red;
+  color: var(--color-white);
+}
+
+
+@media only screen and (max-width: 600px) {
+  .cardsContainer {
+    flex-direction: column;
+    width: 240px;
+    height: 400px;
+    gap: 0;
+    text-align: center;
+  }
+
+  .cardsContainer .desc h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    justify-content: space-between;
+    align-items: space-between;
+  }
+}
