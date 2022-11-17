@@ -4,12 +4,13 @@ This is a simple search app that queries the [Rick and Morty API](https://rickan
 
 ## Usage
 
-You can check out [this hosted version]() or run 
+You can check out [this hosted version](https://kaviisuri.github.io/wubba-lubba-dub-dub/) or run 
 ```bash
 $> npm run i
 $> npm run i -D
 $> npm run start
 ```
+and open [http://127.0.0.1:4173/wubba-lubba-dub-dub/](http://127.0.0.1:4173/wubba-lubba-dub-dub/)
 
 ## Features
 - Infinite Scrolling
