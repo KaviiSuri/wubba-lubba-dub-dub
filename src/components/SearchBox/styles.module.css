@@ -1,0 +1,33 @@
+.searchBox {
+  /* border: 2px solid var(--color-white); */
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--color-grey);
+  color: var(--color-white);
+  -webkit-box-shadow: 6px 6px 12px -4px var(--color-grey), -6px -6px 12px -4px var(--color-grey);
+  -moz-box-shadow: 6px 6px 12px -4px var(--color-grey), -6px -6px 12px -4px var(--color-grey);
+  box-shadow: 6px 6px 12px -4px var(--color-grey), -6px -6px 12px -4px var(--color-grey);
+
+  position: relative;
+  width: 60%;
+  height: 3rem;
+  margin-top: -1.4rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  box-shadow: none;
+  outline: 0px;
+  font-size: 1.2rem;
+}
+
+.searchBox::placeholder {
+  color: var(--color-white)
+}
+
+.searchBox:hover,
+.searchBox:active,
+.searchBox:focus {
+  background-color: var(--color-dark-green);
+  -webkit-box-shadow: 6px 6px 12px -4px var(--color-green), -6px -6px 12px -4px var(--color-green);
+  -moz-box-shadow: 6px 6px 12px -4px var(--color-green), -6px -6px 12px -4px var(--color-green);
+  box-shadow: 6px 6px 12px -4px var(--color-green), -6px -6px 12px -4px var(--color-green);
+}

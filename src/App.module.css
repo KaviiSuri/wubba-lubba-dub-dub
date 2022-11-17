@@ -1,0 +1,6 @@
+.app {
+  padding: 0 4rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
